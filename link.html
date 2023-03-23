@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width-device-witd-initial-scale=1.0 name=viewport" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="./assets/js/menu.js"></script>
+    <title>Etiquetas Básicas para la Programación</title>
+  </head>
+  <header>
+    <div class="d-flex">
+      <div class="logo d-flex">
+        <a href="./index.html" class="d-flex">
+          <img src="./assets/img/logoUni.png" alt="logo" class="logo" />
+          <img src="./assets/img/logo.png" alt="logo" class="logo"
+        /></a>
+      </div>
+      <div class="form-control">
+        <input id="search" list="etiquetas" class="mr-10" />
+        <button onclick="buscar_etiquetas()">Buscar</button>
+      </div>
+
+      <datalist id="etiquetas">
+        <option value="h1"></option>
+        <option value="head"></option>
+        <option value="link"></option>
+        <option value="title"></option>
+      </datalist>
+    </div>
+  </header>
+  <body>
+    <section class="big">
+      <h1 class="titulo">Etiquetas Básicas de HTML5</h1>
+    </section>
+
+    <section class="todo">
+      <section class="contenido" id="article">
+        <article>
+          <h1>Etiquetas Link</h1>
+          <br />
+          <div>
+            <h2>
+              <strong>
+                ¿Qué es la etiqueta <code>&lt;link&gt;</code> en HTML?
+              </strong>
+            </h2>
+            <p>
+              La etiqueta HTML <code>&lt;link&gt;</code> es una etiqueta de
+              encabezado que se utiliza para establecer una relación entre un
+              documento HTML y un recurso externo, como una hoja de estilos CSS,
+              un icono de favicon o un archivo de fuente. La etiqueta
+              <code>&lt;link&gt;</code> se utiliza para definir el tipo de
+              relación que existe entre el documento HTML y el recurso externo.
+              Por ejemplo, la etiqueta <code>&lt;link&gt;</code> se utiliza para
+              establecer la relación entre un documento HTML y una hoja de
+              estilos CSS, y se utiliza el atributo “rel” para establecer la
+              relación. Si el atributo “rel” se establece en “stylesheet”, se
+              indica que el recurso externo es una hoja de estilos. La etiqueta
+              <code>&lt;link&gt;</code> es una de las etiquetas de encabezado
+              más importantes de HTML5 y se utiliza ampliamente en la
+              construcción de sitios web modernos. Además de vincular hojas de
+              estilos y otros recursos, la etiqueta
+              <code>&lt;link&gt;</code> también se utiliza para establecer la
+              relación entre documentos HTML y diferentes versiones del mismo
+              documento (como una versión en un idioma diferente) o para indicar
+              la relación entre documentos HTML y feeds RSS o Atom. Es
+              importante tener en cuenta que la etiqueta
+              <code>&lt;link&gt;</code> debe estar ubicada en la sección
+              <code>&lt;head&gt;</code> del documento HTML y debe estar cerrada
+              con una barra diagonal, como sigue:
+              <code>&lt;link rel="stylesheet" href="styles.css" />.&gt;</code>
+            </p>
+          </div>
+
+          <br />
+
+          <img src="./assets/img/etiquetas_html.png" />
+
+          <br />
+        </article>
+        <article>
+          <h2>Atributos</h2>
+          <p>
+            Aquí te muestro una lista de los atributos más comunes de la
+            etiqueta <link /> de HTML5:
+          </p>
+          <br />
+          <ul>
+            <li>
+              <strong>href:</strong> especifica la ubicación del recurso
+              vinculado, que puede ser una URL, una ruta relativa o un archivo
+              local.
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <strong>rel:</strong> especifica el tipo de relación entre el
+              documento actual y el recurso vinculado. Algunos de los valores
+              más comunes para “rel” son:
+              <ol>
+                <li>
+                  <strong>“stylesheet”</strong>: se utiliza para vincular una
+                  hoja de estilo CSS al documento actual.
+                </li>
+
+                <li>
+                  <strong>“icon”</strong>: se utiliza para especificar un
+                  archivo de icono para el documento actual, como un favicon.
+                </li>
+
+                <li>
+                  <strong>“preload”</strong>: se utiliza para cargar un recurso
+                  de forma previa para mejorar el rendimiento de la página.
+                </li>
+
+                <li>
+                  <strong>“preconnect”</strong>: se utiliza para establecer una
+                  conexión previa con un servidor externo para mejorar el
+                  rendimiento de la página.
+                </li>
+
+                <li>
+                  <strong>“dns-prefetch”</strong>: se utiliza para realizar la
+                  resolución de DNS de un dominio de forma previa para mejorar
+                  el rendimiento de la página.
+                </li>
+
+                <li>
+                  <strong>“canonical”</strong>: se utiliza para especificar la
+                  URL canónica del documento actual, es decir, la URL preferida
+                  para acceder al contenido de la página.
+                </li>
+
+                <li>
+                  <strong>“alternate”</strong>: se utiliza para especificar
+                  versiones alternativas del documento actual, como versiones en
+                  otros idiomas o formatos.
+                </li>
+
+                <li>
+                  <strong>“next”</strong> y <strong>“prev”</strong>: se utilizan
+                  para indicar la relación de páginas anteriores y siguientes en
+                  una serie de documentos.
+                </li>
+
+                <li>
+                  <strong>“author”</strong>, <strong>“publisher”</strong> y
+                  <strong>“me”</strong>: se utilizan para especificar
+                  información sobre el autor, el editor y el propietario de la
+                  página, respectivamente.
+                </li>
+
+                <li>
+                  <strong>“search”</strong>: se utiliza para especificar un
+                  formulario de búsqueda para la página actual.
+                </li>
+              </ol>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <strong>type:</strong> especifica el tipo MIME del recurso
+              vinculado. Por ejemplo, para hojas de estilo CSS, el tipo MIME es
+              “text/css”, mientras que para archivos de iconos, el tipo MIME
+              puede ser “image/png” o “image/x-icon”.
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <strong>sizes:</strong> se utiliza junto con “rel” igual a “icon”
+              para especificar los tamaños del icono vinculado. Puede tomar
+              valores en píxeles o en porcentaje.
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <strong>media:</strong> especifica las condiciones de presentación
+              del recurso vinculado, como la resolución de pantalla, el ancho de
+              la ventana, etc. Se utiliza principalmente para hojas de estilo
+              CSS, y puede tomar valores como “all”, “screen”, “print”, entre
+              otros.
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <strong>integrity:</strong> permite especificar una firma
+              criptográfica que permite verificar la integridad del recurso
+              vinculado. Se utiliza principalmente para asegurar la autenticidad
+              y la integridad de los recursos de terceros.
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <strong>crossorigin:</strong> se utiliza para especificar si el
+              recurso vinculado puede ser solicitado desde una fuente distinta
+              al dominio que sirve el archivo HTML. Puede tomar valores como
+              “anonymous” o “use-credentials”.
+            </li>
+          </ul>
+          <br />
+
+          <img src="./assets/img/codigo_html.png" />
+        </article>
+      </section>
+
+      <aside>
+        <h3>Artículos relacionados</h3>
+        <br />
+        <p>
+          Este es un abre poca de algunas etiquetas usadas en HTML5, ofreceos
+          una lista de enlaces relacionados a as etiquetas usadas en HTML5
+        </p>
+        <p>
+          <br />
+          <br />
+          <a href="https://oregoom.com/html/title/" class="linkAside"
+            >Oregoom</a
+          >
+          <br />
+          <br />
+          <a
+            href="https://carontestudio.com/blog/listado-de-etiquetas-html/"
+            class="linkAside"
+            >carontestudio</a
+          >
+          <br />
+          <br />
+          <a
+            href="https://www.iebschool.com/blog/que-es-etiqueta-html-analitica-usabilidad/"
+            class="linkAside"
+            >iebschool</a
+          ><br />
+          <br />
+
+          <a
+            href="https://developer.mozilla.org/es/docs/Web/HTML"
+            class="linkAside"
+            >developer.mozilla</a
+          >
+          <br />
+          <br />
+        </p>
+      </aside>
+    </section>
+
+    <footer>Proyecto de algoritmo, sobre Etiquetas Html. &copy; 2023</footer>
+  </body>
+</html>

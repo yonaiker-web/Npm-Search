@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width-device-witd-initial-scale=1.0 name=viewport" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="./assets/js/menu.js"></script>
+    <title>Etiquetas Básicas para la Programación</title>
+  </head>
+  <header>
+    <div class="d-flex">
+       <div class="logo d-flex">
+       <a href="./index.html" class="d-flex"> <img src="./assets/img/logoUni.png" alt="logo" class="logo" />
+        <img src="./assets/img/logo.png" alt="logo" class="logo" /></a>
+      </div>
+      <div class="form-control">
+        <input id="search" list="etiquetas" class="mr-10" />
+        <button onclick="buscar_etiquetas()">Buscar</button>
+      </div>
+
+      <datalist id="etiquetas">
+        <option value="h1"></option>
+        <option value="head"></option>
+        <option value="link"></option>
+        <option value="title"></option>
+      </datalist>
+
+  </header>
+  <body>
+    <section class="big">
+      <h1 class="titulo">Etiquetas Básicas de HTML5</h1>
+    </section>
+
+    <section class="todo">
+      <section class="contenido" id="article">
+        <article>
+          <h1>Etiquetas Title</h1>
+          <br />
+          <div>
+            <h2>
+              <strong>
+                ¿Qué es la etiqueta <code>&lt;title&gt;</code> en HTML?
+              </strong>
+            </h2>
+            <p>
+              La etiqueta <code>&lt;title&gt;</code> es una etiqueta obligatoria
+              en HTML5 que se utiliza para definir el título de un documento
+              HTML. Esta etiqueta debe colocarse dentro del elemento
+              <code>&lt;head&gt;</code>y debe contener el título del documento,
+              que se muestra en la pestaña del navegador y en los resultados de
+              búsqueda de Google. Aquí hay algunas características importantes
+              de la etiqueta <code>&lt;title&gt;</code> en HTML5:
+            </p>
+            <ul>
+              <li>
+                La etiqueta <strong>&lt;title&gt;</strong> es una etiqueta de
+                texto plano y no admite HTML u otros elementos de marcado.
+              </li>
+            </ul>
+            <ul>
+              <li>
+                El texto dentro de la etiqueta
+                <strong>&lt;title&gt;</strong> debe ser breve y descriptivo, ya
+                que es lo que los usuarios ven en la pestaña del navegador y en
+                los resultados de búsqueda.
+              </li>
+            </ul>
+            <ul>
+              <li>
+                La longitud recomendada del texto del título es de entre 50 y 60
+                caracteres.
+              </li>
+            </ul>
+            <ul>
+              <li>
+                Si se omite la etiqueta <strong>&lt;title&gt;</strong>, los
+                motores de búsqueda generarán automáticamente un título para la
+                página a partir del contenido de la página, lo que no siempre es
+                deseable.
+              </li>
+            </ul>
+          </div>
+
+          <br />
+
+          <img src="./assets/img/etiquetas_html.png" />
+
+          <br />
+        </article>
+        <article>
+          <h2>Atributos</h2>
+
+          <p>
+            La etiqueta <code>&lt;title&gt;</code> en HTML5 no tiene atributos
+            definidos. Es una etiqueta de texto plano que solo puede contener el
+            título del documento. Sin embargo, algunos navegadores antiguos
+            pueden aceptar ciertos atributos obsoletos, como lang para
+            especificar el idioma del texto del título. Pero en términos
+            generales, no se usan atributos con la etiqueta
+            <code>&lt;title&gt;</code> en HTML5.
+          </p>
+          <br />
+
+          <img src="./assets/img/codigo_html.png" />
+        </article>
+      </section>
+
+      <aside>
+        <h1>Artículos relacionados</h1>
+        <br />
+        <p>
+          Este es un abre poca de algunas etiquetas usadas en HTML5, ofreceos
+          una lista de enlaces relacionados a as etiquetas usadas en HTML5
+        </p>
+        <p>
+          <br />
+          <br />
+          <a href="https://oregoom.com/html/title/" class="linkAside"
+            >Oregoom</a
+          >
+          <br />
+          <br />
+          <a
+            href="https://carontestudio.com/blog/listado-de-etiquetas-html/"
+            class="linkAside"
+            >carontestudio</a
+          >
+          <br />
+          <br />
+          <a
+            href="https://www.iebschool.com/blog/que-es-etiqueta-html-analitica-usabilidad/"
+            class="linkAside"
+            >iebschool</a
+          ><br />
+          <br />
+
+          <a
+            href="https://developer.mozilla.org/es/docs/Web/HTML"
+            class="linkAside"
+            >developer.mozilla</a
+          >
+          <br />
+          <br />
+        </p>
+      </aside>
+    </section>
+
+    <footer>
+      Proyecto de algoritmo,
+      sobre Etiquetas Html. &copy; 2023
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width-device-witd-initial-scale=1.0 name=viewport" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="./assets/js/menu.js"></script>
+    <title>Etiquetas Básicas para la Programación</title>
+  </head>
+  <header>
+    <div class="d-flex">
+      <div class="logo d-flex">
+        <a href="./index.html" class="d-flex">
+          <img src="./assets/img/logoUni.png" alt="logo" class="logo" />
+          <img src="./assets/img/logo.png" alt="logo" class="logo"
+        /></a>
+      </div>
+      <div class="form-control">
+        <input id="search" list="etiquetas" class="mr-10" />
+        <button onclick="buscar_etiquetas()">Buscar</button>
+      </div>
+
+      <datalist id="etiquetas">
+        <option value="h1"></option>
+        <option value="head"></option>
+        <option value="link"></option>
+        <option value="title"></option>
+      </datalist>
+    </div>
+  </header>
+  <body>
+    <section class="big">
+      <h1 class="titulo">Etiquetas Básicas de HTML5</h1>
+    </section>
+
+    <section class="todo">
+      <section class="contenido" id="article">
+        <article>
+          <h1>Etiquetas Head</h1>
+          <br />
+          <p>
+            El elemento HTML <code>&lt;head&gt;</code> provee información
+            general (metadatos) acerca del documento, incluyendo su título y
+            enlaces a scripts y hojas de estilos
+          </p>
+          <br />
+          <div>
+            <h2>
+              <strong
+                >¿Qué es la etiqueta <code>&lt;head&gt;</code> en HTML?</strong
+              >
+            </h2>
+            <p>
+              La etiqueta <code>&lt;head&gt;</code> en HTML5 es una sección no
+              visible en la página que contiene información importante sobre el
+              documento, como el título, los metadatos y los enlaces a los
+              recursos externos (CSS, JavaScript). La información en la sección
+              <code>&lt;head&gt;</code> es utilizada por los buscadores y los
+              navegadores para mostrar información sobre la página en los
+              resultados de búsqueda y en la pestaña del navegador,
+              respectivamente.
+            </p>
+          </div>
+
+          <br />
+
+          <img src="./assets/img/etiquetas_html.png" />
+
+          <br />
+        </article>
+        <article>
+          <h2>¿Para qué sirve <code>&lt;head&gt;</code> en HTML?</h2>
+          <p>
+            La sección <code>&lt;head&gt;</code> en HTML es una parte importante
+            de cualquier documento HTML y se utiliza para proporcionar
+            información adicional sobre el documento, pero no se muestra en la
+            página web. Aquí se incluyen metadatos, títulos, enlaces a recursos
+            externos, hojas de estilo y scripts. La sección
+            <code>&lt;head&gt;</code> es un lugar para colocar información
+            importante que no se muestra directamente en la página web, pero que
+            es necesaria para su correcto funcionamiento y para mejorar la
+            experiencia del usuario. Por ejemplo, se puede usar para
+            proporcionar un título para la página que se mostrará en la pestaña
+            del navegador, enlaces a hojas de estilo CSS que definen la
+            apariencia de la página y metadatos para mejorar la experiencia de
+            búsqueda.
+          </p>
+
+          <br />
+
+          <h2>Nota:</h2>
+          <p>
+            Una característica de los navegadores modernos que cumplen con el
+            estándar HTML5, es que pueden construir automáticamente el elemento
+            <code>&lt;head&gt;</code>, en el caso de que la etiqueta fuera
+            omitida en el código. Sin embargo, este comportamiento no está
+            garantizado en el caso de navegadores más viejos, como Internet
+            Explore.
+          </p>
+          <br />
+          Todos los encabezados El siguiente código muestra todos los niveles de
+          encabezado.
+          <br />
+
+          <img src="./assets/img/codigo_html.png" />
+        </article>
+      </section>
+
+      <aside>
+        <h3>Artículos relacionados</h3>
+        <br />
+        <p>
+          Este es un abre poca de algunas etiquetas usadas en HTML5, ofreceos
+          una lista de enlaces relacionados a as etiquetas usadas en HTML5
+        </p>
+        <p>
+          <br />
+          <br />
+          <a href="https://oregoom.com/html/title/" class="linkAside"
+            >Oregoom</a
+          >
+          <br />
+          <br />
+          <a
+            href="https://carontestudio.com/blog/listado-de-etiquetas-html/"
+            class="linkAside"
+            >carontestudio</a
+          >
+          <br />
+          <br />
+          <a
+            href="https://www.iebschool.com/blog/que-es-etiqueta-html-analitica-usabilidad/"
+            class="linkAside"
+            >iebschool</a
+          ><br />
+          <br />
+
+          <a
+            href="https://developer.mozilla.org/es/docs/Web/HTML"
+            class="linkAside"
+            >developer.mozilla</a
+          >
+          <br />
+          <br />
+        </p>
+      </aside>
+    </section>
+
+    <footer>Proyecto de algoritmo, sobre Etiquetas Html. &copy; 2023</footer>
+  </body>
+</html>

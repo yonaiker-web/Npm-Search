@@ -16,8 +16,8 @@
 Informatica Seccion A
 Algoritmo y Programacion I
 
-- Jesús Rondón C.I:31.047.386
+- Jesús Rondón C.I 31.047.386
 - Miguel Rodríguez CI 30.098.822
-- Arianna Clemente 28.304.435
+- Arianna Clemente CI 28.304.435
 - Jennifer Uribe CI 30.560.952
 - Yonaiker Ocando CI 23.693.888

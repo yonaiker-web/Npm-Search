@@ -4,31 +4,91 @@
     <meta charset="utf-8" />
     <meta content="width-device-witd-initial-scale=1.0 name=viewport" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="./assets/menu.js" />
+    <script src="./assets/js/menu.js"></script>
     <title>Etiquetas Básicas para la Programación</title>
   </head>
   <header>
-    <h1>Etiqueta Básicas para la Programación</h1>
+    <div class="d-flex">
+      <div class="logo d-flex">
+        <a href="./index.html" class="d-flex">
+          <img src="./assets/img/logoUni.png" alt="logo" class="logo" />
+          <img src="./assets/img/logo.png" alt="logo" class="logo"
+        /></a>
+      </div>
+      <div class="form-control">
+        <input id="search" list="etiquetas" class="mr-10" />
+        <button onclick="buscar_etiquetas()">Buscar</button>
+      </div>
+
+      <datalist id="etiquetas">
+        <option value="h1"></option>
+        <option value="head"></option>
+        <option value="link"></option>
+        <option value="title"></option>
+      </datalist>
+    </div>
   </header>
   <body>
     <section class="big">
-      <h1 class="titulo">Etiquetas Básicas para la Programación</h1>
+      <h1 class="titulo">Etiquetas Básicas de HTML5</h1>
     </section>
 
     <section class="todo">
       <section class="contenido" id="article">
         <article>
-          <h1>Etiquetas HTML</h1>
+          <h1>Etiquetas H1</h1>
           <br />
-          <h2>¿Qué es una Etiqueta de HTML?</h2>
+          <p></p>
           <p>
-            Son fragmentos de código que permiten crear elementos HTML, que son
-            estructura básicas de este lenguaje. Estos elementos tienen dos
-            propiedades básicas: los "Atributos" y el "Contenido". Para que un
-            <b>elemento</b> sea válido, normalmento tiene una etiqueta de inicio
-            "< nombre-de-elemento >"y una etiqueta de cierre "<
-            /nombre-de-elemento >"
+            Los elementos de <strong>encabezado</strong> implementan seis
+            niveles de encabezado del documento, <code>&lt;h1&gt;</code> es el
+            más importante, y <code>&lt;h6&gt;</code>, el menos importante. Un
+            elemento de encabezado describe brevemente el tema de la sección que
+            presenta. La información de encabezado puede ser usada por los x
+            agentes usuarios, por ejemplo, para construir una tabla de
+            contenidos para un documento automáticamente.
           </p>
+          <br />
+          <div>
+            <h2><strong>Nota:</strong></h2>
+            <ul>
+              <li>
+                No se deben usar niveles inferiores para reducir el tamaño de la
+                fuente: use la propiedad <a href="/es/docs/Web/CSS">CSS</a>
+                <a href="/es/docs/Web/CSS/font-size"><code>font-size</code></a>
+                para eso.
+              </li>
+              <li>
+                Evite omitir niveles de encabezado: siempre comience con
+                <code>&lt;h1&gt;</code>, después use <code>&lt;h2&gt;</code> y
+                así sucesivamente.
+              </li>
+              <li>
+                Con el elemento
+                <a href="/es/docs/Web/HTML/Element/section"
+                  ><code>&lt;section&gt;</code></a
+                >, debe considerar evitar usar &lt;h1&gt; más de una vez en una
+                página; por costumbre, se usa para mostrar el título de la
+                página, con todos los encabezados debajo de éste comenzando con
+                <code>&lt;h2&gt;</code>. Cuando se usan secciones, debe usarse
+                un <code>&lt;h1&gt;</code> por sección. Véase
+                <a
+                  href="/es/docs/Sections_and_Outlines_of_an_HTML5_document#Definiendo_secciones_en_HTML5"
+                  class="page-not-created"
+                  title="This is a link to an unwritten page"
+                  >Definiendo secciones</a
+                >
+                en
+                <a
+                  href="/es/docs/Sections_and_Outlines_of_an_HTML5_document"
+                  class="page-not-created"
+                  title="This is a link to an unwritten page"
+                  >Secciones y esquema de un documento HTML5</a
+                >
+                para más información.
+              </li>
+            </ul>
+          </div>
 
           <br />
 
@@ -37,19 +97,20 @@
           <br />
         </article>
         <article>
-          <h2>Etiqueta "Body"</h2>
-          <p>
-            El elemento <b>"body"</b> representa el contenido de un documento
-            HTML. Solo puede haber un elemento <b>"body"</b> en un documento.
-          </p>
+          <h2>Atributo</h2>
+          <div>
+            <p>
+              Estos elementos incluyen los
+              <a href="/es/docs/Web/HTML/Global_attributes">
+                atributos globales</a
+              >.
+            </p>
+            <p>El atributo <code>align</code> es obsoleto; no debe usarse.</p>
+          </div>
 
           <br />
 
-          <img src="./assets/img/estructura_del_body.png" />
-
-          <br />
-
-          <h2>Un Consejo con Respecto al Uso de las Minúsculas</h2>
+          <h2>Ejemplos</h2>
           <p>
             Si bien el HTML acepta tanto etiquetas en mayúsculas <b>"B"</b> como
             en minúsculas <b>"b"</b> el Wold Wide Web Consorotium (W3C)
@@ -57,17 +118,88 @@
             acostumbrarse a usar minúsculas cuando escribamos códigos en HTML.
           </p>
           <br />
+          Todos los encabezados El siguiente código muestra todos los niveles de
+          encabezado.
+          <br />
+          <div>
+            <ul>
+              <li>
+                <code>
+                  Etiqueta h1
+                  <h1>Heading level 1</h1>
+                </code>
+              </li>
+              <li>
+                <code>
+                  Etiqueta h2
+                  <h2 class="none">Heading level 1</h2>
+                </code>
+              </li>
+              <li>
+                <code>
+                  Etiqueta h3
+                  <h3>Heading level 1</h3>
+                </code>
+              </li>
+              <li>
+                <code>
+                  Etiqueta h4
+                  <h4>Heading level 1</h4>
+                </code>
+              </li>
+              <li>
+                <code>
+                  Etiqueta h5
+                  <h5>Heading level 1</h5>
+                </code>
+              </li>
+            </ul>
+          </div>
 
           <img src="./assets/img/codigo_html.png" />
         </article>
       </section>
 
-      <aside></aside>
+      <aside>
+        <h3>Artículos relacionados</h3>
+        <br />
+        <p>
+          Este es un abre poca de algunas etiquetas usadas en HTML5, ofreceos
+          una lista de enlaces relacionados a as etiquetas usadas en HTML5
+        </p>
+        <p>
+          <br />
+          <br />
+          <a href="https://oregoom.com/html/title/" class="linkAside"
+            >Oregoom</a
+          >
+          <br />
+          <br />
+          <a
+            href="https://carontestudio.com/blog/listado-de-etiquetas-html/"
+            class="linkAside"
+            >carontestudio</a
+          >
+          <br />
+          <br />
+          <a
+            href="https://www.iebschool.com/blog/que-es-etiqueta-html-analitica-usabilidad/"
+            class="linkAside"
+            >iebschool</a
+          ><br />
+          <br />
+
+          <a
+            href="https://developer.mozilla.org/es/docs/Web/HTML"
+            class="linkAside"
+            >developer.mozilla</a
+          >
+          <br />
+          <br />
+        </p>
+      </aside>
     </section>
 
-    <footer>
-      <a href="index.html" target="_top">Ir al inicio </a>Proyecto de algoritmo,
-      sobre Etiquetas Html. &copy; 2023
-    </footer>
+    <footer>Proyecto de algoritmo, sobre Etiquetas Html. &copy; 2023</footer>
   </body>
 </html>

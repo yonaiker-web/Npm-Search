@@ -45,6 +45,10 @@ button {
   background-color: #0881b8;
 }
 
+.none {
+  font-size: medium;
+  color: black;
+}
 button:hover {
   background-color: #218cd8;
 }
@@ -54,11 +58,30 @@ section {
   padding: 2.5% 1.5%;
 }
 
-a {
-  text-decoration: none;
-  color: #fff;
+ul,
+ol,
+dl {
+  fmargin-top: 0;
+  margin-bottom: 1rem;
 }
 
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+.linkAside {
+  color: #d3caca !important;
+}
+
+a {
+  text-decoration: none;
+  color: #636363;
+}
+
+code {
+  background: #adadad;
+}
 h1 {
   text-align: center;
   color: #111f39;
@@ -68,6 +91,13 @@ h1 {
 h2 {
   color: #0d4973;
   padding: 1%;
+}
+
+h3 {
+  font-size: larger;
+  color: #183142;
+  padding: 1%;
+  text-align: center;
 }
 
 img {
@@ -152,4 +182,8 @@ input {
 
 .mr-10 {
   margin-right: 10px;
+}
+
+.m-8 {
+  margin: 18px;
 }
