@@ -2,13 +2,21 @@
 
 ## :hammer:Bondades del proyecto
 
-*[Bondad 1](#insignias)
-
+*[Bondad 1]
 Breve descripción de lo que es html
 
-- `Bondad 2`: Posee un buscado que se encarga de encontrar muchas de las etiquetas mas usadas de html y su documentación 2- `Bondad 3`: Facil acceso
+
+*[Bondad 2]
+Posee un buscado que se encarga de encontrar muchas de las etiquetas mas usadas de html y su documentación
+
+*[Bondad 3]
+Facil acceso
+
 
 ## Integrantes
+
+Informatica Seccion A
+Algoritmo y Programacion I
 
 - Jesús Rondón C.I:31.047.386
 - Miguel Rodríguez CI 30.098.822
