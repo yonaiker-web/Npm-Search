@@ -1,1 +1,15 @@
-si escribo o modifico un archivo me deberia aparecer aqui
+<h4 align="center">
+:construction: Proyecto en construcción :construction:
+</h4>
+
+## :hammer:Bondades del proyecto
+
+- `Bondad 1`: Breve descripción de lo que es html 1- `Bondad 2`: Posee un buscado que se encarga de encontrar muchas de las etiquetas mas usadas de html y su documentación 2- `Bondad 3`: Facil acceso
+
+## Integrantes
+
+- Jesús Rondón C.I:31.047.386
+- Miguel Rodríguez CI 30.098.822
+- Arianna Clemente 28.304.435
+- Jennifer Uribe CI 30.560.952
+- Yonaiker Ocando CI 23.693.888
