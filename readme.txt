@@ -1,10 +1,12 @@
-<h4 align="center">
 :construction: Proyecto en construcción :construction:
-</h4>
 
 ## :hammer:Bondades del proyecto
 
-- `Bondad 1`: Breve descripción de lo que es html 1- `Bondad 2`: Posee un buscado que se encarga de encontrar muchas de las etiquetas mas usadas de html y su documentación 2- `Bondad 3`: Facil acceso
+*[Bondad 1](#insignias)
+
+Breve descripción de lo que es html
+
+- `Bondad 2`: Posee un buscado que se encarga de encontrar muchas de las etiquetas mas usadas de html y su documentación 2- `Bondad 3`: Facil acceso
 
 ## Integrantes
 
